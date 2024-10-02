@@ -1,0 +1,22 @@
+* {
+    background-color: lightblue;
+    color: white;
+}
+
+body {
+    border: 2px solid green;
+}
+
+a {
+    color: green;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+header,
+footer {
+    text-align: center;
+}
