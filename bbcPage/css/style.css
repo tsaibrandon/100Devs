@@ -1,0 +1,67 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/******************************************
+/* Header Styling
+/*******************************************/
+header {
+     background: black;
+     color: white;
+     height: 50px;
+}
+
+nav * {
+     float: left;
+     color: white;
+     width: 10%;
+     display: block;
+}
+
+/* navigation bar */
+nav ul {
+     width: 50%;
+}
+
+/* search form */
+nav form input {
+     width: 100%;
+}
+
+/******************************************
+/* First Section Styling
+/*******************************************/
+/* section h3 {
+     float: left;
+} */
+
+section h4 {
+     color: lightgray;
+     float: right;
+}
+
+/* sections */
+section section {
+     float: left;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
