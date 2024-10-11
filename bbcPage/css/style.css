@@ -46,21 +46,24 @@ nav form input {
 /******************************************
 /* First Section Styling
 /*******************************************/
-/* section h3 {
+main>section {
      float: left;
-} */
-
-section h4 {
-     color: lightgray;
-     float: right;
+     width: 50%;
 }
 
-/* sections */
-section section {
+main>section {
      float: left;
 }
 
+main section+section section {
+     float: left;
+     width: 50%;
+}
 
+main+section section section {
+     float: left;
+     width: 33.3333%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
