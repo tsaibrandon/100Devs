@@ -14,29 +14,66 @@
 }
 
 .clear {
-	clear: both;
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-
+     clear: both;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 header {
-
+     height: 75px;
+     border-bottom: 0.8px solid black;
 }
 
-footer {
-
+nav * {
+     float: left;
+     width: 20%;
+     margin-top: 28px;
+     color: blue;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+nav>a {
+     padding: 0 0 0 300px;
+}
+
+nav form {
+     width: 16%;
+     margin-top: 25px;
+}
+
+nav input {
+     width: 50%;
+     margin-top: 0;
+}
+
+nav img {
+     height: 60px;
+     width: 500px;
+     margin-top: 7px;
+     padding: 0 130px 0 120px;
+}
+
+nav ul {
+     list-style: none;
+     width: 400px;
+     margin: 0;
+     padding-left: 100px;
+}
+
+nav ul li {
+     width: 50px;
+     margin: 0;
+}
+
+a {
+     text-decoration: none;
+}
+
+main>section {
+     float: left;
+     height: 750px;
+     width: 50%;
+     border: 1px solid black;
+}
