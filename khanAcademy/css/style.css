@@ -22,6 +22,7 @@
 /* LAYOUT
 /*******************************************/
 
+/* header styling */
 header {
      height: 75px;
      border-bottom: 0.8px solid black;
@@ -71,9 +72,23 @@ a {
      text-decoration: none;
 }
 
+/* main styling */
+main {
+     height: 750px;
+}
+
 main>section {
      float: left;
-     height: 750px;
      width: 50%;
-     border: 1px solid black;
+     height: 750px;
+}
+
+main img {
+     width: 600px;
+     height: 600px;
+     margin: 75px 0;
+}
+
+main>section+section {
+     padding: 75px 25% 75px 0;
 }
