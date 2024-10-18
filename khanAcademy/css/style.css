@@ -41,7 +41,7 @@ nav>a {
 
 nav form {
      width: 16%;
-     margin-top: 25px;
+     margin-top: 25px 0 0 0;
 }
 
 nav input {
@@ -65,7 +65,7 @@ nav ul {
 
 nav ul li {
      width: 50px;
-     margin: 0;
+     margin: 0 10px 0 0;
 }
 
 a {
@@ -84,11 +84,40 @@ main>section {
 }
 
 main img {
-     width: 600px;
+     width: 550px;
      height: 600px;
-     margin: 75px 0;
+     padding: 60px 0 0 0;
+     margin: 0 0 0 38%;
 }
 
 main>section+section {
-     padding: 75px 25% 75px 0;
+     padding: 200px 20% 0 0;
+}
+
+main>section+section * {
+     float: left;
+}
+
+h1 {
+     font-size: 50px;
+     margin: 0;
+     padding: 0 25% 0 0;
+}
+
+p {
+     font-size: 18px;
+     padding: 0 10% 0 0;
+}
+
+main>section+section>section {
+     margin: 20px 0 0 0;
+}
+
+button {
+     color: white;
+     background: blue;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+     margin: 0 10px 0 0;
 }
