@@ -1,0 +1,123 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* header styling */
+header {
+     height: 75px;
+     border-bottom: 0.8px solid black;
+}
+
+nav * {
+     float: left;
+     width: 20%;
+     margin-top: 28px;
+     color: blue;
+}
+
+nav>a {
+     padding: 0 0 0 300px;
+}
+
+nav form {
+     width: 16%;
+     margin-top: 25px 0 0 0;
+}
+
+nav input {
+     width: 50%;
+     margin-top: 0;
+}
+
+nav img {
+     height: 60px;
+     width: 500px;
+     margin-top: 7px;
+     padding: 0 130px 0 120px;
+}
+
+nav ul {
+     list-style: none;
+     width: 400px;
+     margin: 0;
+     padding-left: 100px;
+}
+
+nav ul li {
+     width: 50px;
+     margin: 0 10px 0 0;
+}
+
+a {
+     text-decoration: none;
+}
+
+/* main styling */
+main {
+     height: 750px;
+}
+
+main>section {
+     float: left;
+     width: 50%;
+     height: 750px;
+}
+
+main img {
+     width: 550px;
+     height: 600px;
+     padding: 60px 0 0 0;
+     margin: 0 0 0 38%;
+}
+
+main>section+section {
+     padding: 200px 20% 0 0;
+}
+
+main>section+section * {
+     float: left;
+}
+
+h1 {
+     font-size: 50px;
+     margin: 0;
+     padding: 0 25% 0 0;
+}
+
+p {
+     font-size: 18px;
+     padding: 0 10% 0 0;
+}
+
+main>section+section>section {
+     margin: 20px 0 0 0;
+}
+
+button {
+     color: white;
+     background: blue;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+     margin: 0 10px 0 0;
+}

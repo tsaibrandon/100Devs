@@ -1,0 +1,15 @@
+header {
+    height: 50px;
+    background-color: black;
+}
+
+nav * {
+    float: left;
+    width: 20%;
+    color: white;
+    display: block;
+}
+
+nav ul {
+    width: 50%;
+}
