@@ -1,0 +1,36 @@
+@media screen and (max-width: 700px) {
+    section {
+        background-color: green;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    section {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    section {
+        background-color: red;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+    clear: both;
+}
+
+section {
+    height: 300px;
+    width: 33.3333%;
+    border: 3px solid black;
+    float: left;
+}
